@@ -1,0 +1,11 @@
+# assumptions need to be changed to actual values.
+
+apriltag:
+  ros__parameters:
+    family: "36h11"
+    size: 0.10
+    pose_estimation_method: "pnp"
+    tag:
+      ids: [0]
+      frames: ["target_tag"]
+      sizes: [0.10]
